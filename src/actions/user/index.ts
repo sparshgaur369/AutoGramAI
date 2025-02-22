@@ -1,7 +1,8 @@
 "use server"
 
-import { stripe } from "@/app/(protected)/api/payment/route"
+// import { stripe } from "@/app/(protected)/api/payment/route"
 import { refreshToken } from "@/lib/fetch"
+import { stripe } from "@/lib/stripe"
 import { currentUser } from "@clerk/nextjs/server"
 import { redirect } from "next/navigation"
 import { updateIntegration } from "../integrations/queries"
