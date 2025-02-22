@@ -46,6 +46,7 @@
         "@tanstack/react-query": "^5.51.24",
         "@types/uuid": "^10.0.0",
         "axios": "^1.7.7",
+        "caniuse-lite": "^1.0.30001700",
         "class-variance-authority": "^0.7.0",
         "clsx": "^2.1.1",
         "cmdk": "1.0.0",
